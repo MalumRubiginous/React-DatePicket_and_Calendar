@@ -36,14 +36,16 @@ class Demo extends React.Component {
 
 ## Props
 
-DatePicker
+#### DatePicker
+
 Prop            | Type           | Default  | Description
 ----------------|----------------|----------|----------------------------------------------------------------------
 locale          | string         | 'en'     | Change language of calendar, see locale/langueges.js
 selectedDate    | boolean/object | false    | Controll state at parent component. Should be initial by the helper.
 setSelectedDate | function       | () => {} | A callback for child component to set state: selectedDate.
 
-Calendar
+#### Calendar
+
 Prop            | Type           | Default  | Description
 ----------------|----------------|----------|----------------------------------------------------------------------
 shouldShow      | boolean        | true     | Controll calendar component displaying.
