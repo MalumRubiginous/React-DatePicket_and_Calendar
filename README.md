@@ -1,6 +1,6 @@
 # react-Datepicker & Calendar
 
-##Install & Demo
+## Install & Demo
 
 ```
     $ npm i
@@ -8,9 +8,9 @@
 ```
 Demo: http://localhost:8080
 
-##Usage
+## Usage
 
-```html
+```
 class Demo extends React.Component {
     constructor(props) {
         super(props);
@@ -34,7 +34,7 @@ class Demo extends React.Component {
 }
 ```
 
-##Props
+## Props
 
 DatePicker
 | Prop            | Type           | Default  | Description                                                          |
